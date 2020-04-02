@@ -26,6 +26,14 @@
                         <action selector="audio:" destination="-1" eventType="touchUpInside" id="2ue-hr-Gry"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHl-aK-Qxk">
+                    <rect key="frame" x="116" y="226" width="117" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="视频"/>
+                    <connections>
+                        <action selector="vedio:" destination="-1" eventType="touchUpInside" id="gRW-gL-fxm"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>

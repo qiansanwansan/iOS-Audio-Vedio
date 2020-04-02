@@ -8,10 +8,12 @@
 
 #import "FYViewController.h"
 #import "FYAudioController.h"
-
+#import "FYPreViewController.h"
 @interface FYViewController ()
 
 @end
+
+#warning 多谢网络上前人指点，站在巨人肩膀上学习成长
 
 @implementation FYViewController
 
@@ -21,6 +23,10 @@
 }
 - (IBAction)audio:(UIButton *)sender {
     FYAudioController *vc = [FYAudioController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)vedio:(UIButton *)sender {
+    FYPreViewController *vc = [FYPreViewController new];
     [self.navigationController pushViewController:vc animated:YES];
 }
 
