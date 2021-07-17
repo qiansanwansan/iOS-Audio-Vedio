@@ -158,7 +158,7 @@
     // 创建设备输入对象
     AVCaptureDevice *captureDevice = [AVCaptureDevice  defaultDeviceWithDeviceType:AVCaptureDeviceTypeBuiltInWideAngleCamera mediaType:AVMediaTypeVideo position:position];
     
-    // 获取改变的摄像头输入设备
+    // 获取改变的摄像头输入设备 应该新增判断是否获取到输入设备
     AVCaptureDeviceInput *videoDeviceInput = [AVCaptureDeviceInput deviceInputWithDevice:captureDevice error:nil];
 
     // 移除之前摄像头输入设备
